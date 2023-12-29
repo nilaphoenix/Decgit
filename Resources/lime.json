@@ -1,0 +1,126 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-12-22T16:13:48.875Z",
+        "line": 3,
+        "name": "To click shop men",
+        "description": "",
+        "id": "limeroad-order;to-click-shop-men",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 949185000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User launch the Url \"https://www.limeroad.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.limeroad.com/\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.step.Step_definition.user_launch_the_url(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3180930900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User clicks on shop men",
+            "match": {
+              "location": "com.step.Step_definition.user_clicks_on_shop_men()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3609070900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks to women",
+            "match": {
+              "location": "com.step.Step_definition.user_clicks_to_women()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3238275700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on sarees",
+            "match": {
+              "location": "com.step.Step_definition.user_clicks_on_sarees()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3224519300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on model",
+            "match": {
+              "location": "com.step.Step_definition.user_clicks_on_model()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3189828000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user selects the varient",
+            "match": {
+              "location": "com.step.Step_definition.user_selects_the_varient()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3236859300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user selects the colour",
+            "match": {
+              "location": "com.step.Step_definition.user_selects_the_colour()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3132479400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks add to cart",
+            "match": {
+              "location": "com.step.Step_definition.user_clicks_add_to_cart()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Limeroad order",
+    "description": "",
+    "id": "limeroad-order",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/feature/Lime.feature",
+    "tags": []
+  }
+]
